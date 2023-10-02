@@ -15,7 +15,7 @@
 
 **Nezabudnúť** - nazvy premennych by mali vzdy davat zmysel, pre premenne podstatne mena, pre funkcie slovesa
 
-## 1.2. Funkcie
+## 1.1. Funkcie
 
 - ak nechcete duplikovat casti kodu skrz viacero testov, pouzite funkciu, ktoru prepouzijete skrz test.
 - nazov funkcie obsahuje sloveso
@@ -38,11 +38,11 @@ function menoFunkcie(nazovPremennej){
 menoFunkcie(nazovPremennejKtoruChcesPoslat)
 ```
 
-## 1.3. Iteracia
+## 1.2. Iteracia
 
 - vid 3.lekcia/prikladIteracie, odporucam sa s tym pohrat, spustit to niekolko krat
 
-## 1.4. Jednoducha podmienka
+## 1.3. Jednoducha podmienka
 
 - ak chces, napr vo funkcii povedat programu, ze nema nieco vykonat, alebo naopak, ma nieco vykonat za ucitych okolnosti, pouzi if().
 - != deklaracia, ze sa nieco nema rovnat, == deklaracia, ze sa nieco ma rovnat
@@ -57,7 +57,7 @@ menoFunkcie(nazovPremennejKtoruChcesPoslat)
 
 - viac o if a if else tu: https://www.w3schools.com/js/js_if_else.asp
 
-## 1.5. JS Object
+## 1.4. JS Object
 
 - nakupna taska pre moje premenne
 - deklaracia je podobna JSONu (vid fixtures/example.json)
