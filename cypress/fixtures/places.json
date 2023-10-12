@@ -1,0 +1,34 @@
+{
+    "data": {
+        "places": {
+            "__typename": "PlaceConnection",
+            "edges": [
+                {
+                    "rank": 18,
+                    "distance": {
+                        "__typename": "SphericalDistance",
+                        "distance": 9098476
+                    },
+                    "isAmbiguous": false,
+                    "node": {
+                        "__typename": "City",
+                        "__isPlace": "City",
+                        "id": "City:krompachy_svk",
+                        "legacyId": "krompachy_svk",
+                        "name": "Krompachy, inde nelietame",
+                        "gps": {
+                            "lat": 35.689487,
+                            "lng": 139.691706
+                        },
+                        "rank": 18,
+                        "code": "KROM",
+                        "autonomousTerritory": null,
+                        "subdivision": null,
+                        "airportsCount": 0,
+                        "groundStationsCount": 0
+                    }
+                }
+            ]
+        }
+    }
+}
