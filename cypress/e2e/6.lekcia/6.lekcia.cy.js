@@ -15,7 +15,6 @@ describe('Wait for a response: Search & Result page', () => {
 
     it('wait for a response on result page', () => {
         cy.intercept('**featureName=SearchReturnItinerariesQuery').as('searchResults')
-        //TODO: doplnit intercept a cakanie na response pre zobrazenie vysledkov
         cy.visit('https://www.kiwi.com/en/')
         cy.get('[data-test="PlacePickerInput-destination"] > [data-test="SearchField-input"]')
             .type('Tokyo')
