@@ -1,6 +1,6 @@
 it('search for an artist', () => {
-    const client_id = '0a93cabf252f4c5eb4a8cf095d3214c4'
-    const client_secret = '81e0940422d9410ea51387509b4c6bad'
+    const client_id = '***'
+    const client_secret = '***'
     cy.viewport(1920, 1600)
     cy.setCookie('OptanonAlertBoxClosed', '2023-07-25T11:15:13.457Z')
     cy.request({
